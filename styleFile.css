@@ -1,0 +1,234 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #f7f7f7;
+}
+.mainBody {
+    margin: 0px 50px;
+}
+.websiteHeader{
+    margin: 0px auto 0px auto;
+    padding-top: 55vh;
+    text-align: center;
+    font-size: 150px;
+    color: white;	
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-family: 'Oswald', sans-serif;
+    
+}
+.pageHeader {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+.headerBackground {
+    background-image: url("images/travel_the_world-wallpaper-1920x1080.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /*width: 100vw;*/
+}
+.arrow {
+    content: "\2193";
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+.center {
+    padding-top: 25px;
+    text-align: center;
+}
+ul.navBar {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /*width: max-content;*/
+    margin: 0 auto;
+    height: 100px;
+}
+ul.navBar > li {
+    float: left;
+    
+}
+ul.navBar > li > span {
+    display: block;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 25px 16px;
+    text-decoration: none;
+    line-height: 50px;
+    height: 50px;
+    font-size: 35px;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: 'Aldrich', sans-serif;
+}
+ul.navBar > li > span:hover {
+    background-color: #111;
+    cursor: pointer;
+}
+.row {
+    display: inline-block;
+    float: left;
+    margin: 20px 0;
+    width: 100%;    
+}
+.mainPara {
+    font-size: 35px;
+}
+.widget {
+    background-color: white;
+    margin: 0 40px;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.widget:hover {
+    cursor: pointer;
+}
+.widget > h3, widget > p {
+    margin: 0;
+}
+img {
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+h3 {
+    font-family: 'Aldrich', sans-serif;
+    padding: 10px;
+    margin: 0;
+}
+video {
+    display: block;
+    height: auto;
+    width: 90%;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.videoHeader {
+    margin: 0 40px;
+}
+.grid-1-1{
+    width: 100%;
+}
+.grid-1-2 {
+    width: 50%;
+}
+.grid-1-3 {
+    width: 33.3%;
+}
+.grid-1-4 {
+    width: 25%;
+}
+.grid-1-5 {
+    width: 20%;
+}
+.grid-3-4 {
+    width: 75%;
+}
+
+body{
+    /*background-color: turquoise;*/
+/*    background-image: url("castle.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;*/
+    margin: 0px;
+}
+
+.navSaber {
+    /*list-style-type: none;*/
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    width: max-content;
+    margin: 0 auto;
+}
+.offset {
+    padding-top: 100vh;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.list {
+    font-size: 20px;
+}
+article > h3 {
+    margin: 0 20px;
+}
+a:link {
+    font-size: 20px;
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    line-height: 30px;
+    margin: 8px 0;
+    border: 2px #111 solid;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: block;
+    
+}
+.sidePanel {
+    border-top: 3px solid transparent;
+    border-image: linear-gradient(to right,rgb(196, 33, 42) 0px, rgb(196, 33, 42) 55px,transparent 55px) 1 / 1 / 0 stretch;
+    border-left: 0px none;
+    border-bottom: 0px none;
+}
+
+.inline {
+    display: inline-block;
+    height: 250px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+#description {
+    padding: 10px;
+    font-size: 1.125rem;
+line-height: 1.5;
+text-rendering: optimizelegibility;
+}
+
+.discoverImg {
+    width: auto;
+    height: 100%;
+}
+
+.seperator {
+    border-top: 1px solid rgb(204, 204, 204);
+}
+.locationTitle {
+    font-size: 2rem;
+    line-height: 1.25;
+    font-family: 'Aldrich', sans-serif;
+}
+.locationImg {
+    width: 620px;
+    height: 388px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
